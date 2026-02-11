@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TCT | Teşkilat Genel Başkanlığı</title>
+  <style>
+    :root{
+      --bg:#0b0f12;
+      --panel:#11181f;
+      --panel2:#0f151b;
+      --text:#e8eef5;
+      --muted:#a9b6c5;
+      --line:#223040;
+      --red:#c21f2b;
+      --gold:#d6b15f;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0;font-family:Arial, Helvetica, sans-serif;}
+    body{background:var(--bg);color:var(--text);}
+
+    header{
+      background:linear-gradient(90deg, #0d1319, #0b0f12);
+      border-bottom:1px solid var(--line);
+      padding:18px 22px;
+      position:sticky; top:0;
+      z-index:10;
+    }
+
+    .topbar{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:14px;
+      max-width:1200px;
+      margin:auto;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:14px;
+    }
+
+    .logo{
+      width:44px;height:44px;
+      border:1px solid var(--line);
+      border-radius:12px;
+      display:grid;place-items:center;
+      background:var(--panel);
+      font-weight:800;
+      letter-spacing:1px;
+      color:var(--gold);
+    }
+
+    .brand h1{font-size:16px;letter-spacing:0.6px;}
+    .brand p{font-size:12px;color:var(--muted);margin-top:
